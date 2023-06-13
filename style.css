@@ -1,0 +1,313 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	justify-content:center;
+	
+}
+
+header {
+	background-color: #00BFFF;
+	color: black;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+    padding: 20px;
+    font-size: 50px;;
+}
+
+h1 {
+	margin: 20px;
+	
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.ficha{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+        justify-content: space-between;
+    align-content: center;
+    margin:50px;
+    width: 50%;
+    
+}
+
+.teste{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+h3{
+	display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.regras{
+	background-color: #f0f0f0;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 20px;
+	max-width: 420px;
+	height:350px;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin-top:70px;
+	
+}
+
+.b{
+	display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+
+div{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+   height: 250px;
+}
+section {
+	background-color: #f0f0f0;
+	justify-content: flex-start;
+	border-radius: 5px;
+	padding: 20px;
+	width: 430px;
+	height:300px;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin:60px;
+	border: 2px solid black;
+}
+
+.planejamento{
+    background-color: #f0f0f0;
+	justify-content: flex-start;
+	border-radius: 5px;
+	padding: 20px;
+	width: 430px;
+	height:600px;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin:60px;
+	border: 2px solid black;
+}
+
+.casoteste{
+    background-color: #f0f0f0;
+	justify-content: flex-start;
+	border-radius: 5px;
+    padding: 20px;
+    width: 700px;
+    height: 800px;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin:60px;
+    border: 2px solid black;
+    align-items: center;
+}
+
+.avaliacao{
+    background-color: #f0f0f0;
+	justify-content: flex-start;
+	border-radius: 5px;
+	padding: 20px;
+	width: 600px;
+	height:400px;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin:60px;
+	border: 2px solid black;
+}
+
+ul{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        max-height: 580px;
+        padding:20px;
+         line-height: 0.8;
+    
+}
+
+li{
+	margin:15px;
+}
+
+section h2 {
+	margin-top: 0;
+}
+
+section ul {
+	margin-top: 0;
+}
+
+footer {
+	background-color: #72b5a4;
+	color: #595757;
+	text-decoration: center;
+	padding: 20px;
+}
+
+.responsive-img {
+	max-width: 100%;
+	height: auto;
+}
+
+.logo{
+	width:100px;
+	margin-top:-5px;
+}
+
+label{
+	font-family:Cooper Preto;
+	color:red;
+	margin:30px;
+	
+}
+
+.positivo{
+	font-family:Cooper Preto;
+	color:green;
+    margin:30px;
+    font-size: 30px;
+   
+	
+}
+
+.negativo{
+	font-family:Cooper Preto;
+	color:red;
+    margin:30px;
+    font-size: 30px;
+	
+}
+
+
+.labelteste{
+    font-family:Cooper Preto;
+	color: black;
+    margin:5px;
+    font-size:25px;
+}
+
+button {
+ background-color: #eee;
+ border: none;
+ margin:10px;
+ padding: 0.7rem;
+ font-size: 1rem;
+ width: 6em;
+ border-radius: 1rem;
+ color: #1E90FF;
+ box-shadow: 0 0.4rem #dfd9d9;
+ cursor: pointer;
+}
+
+button:active {
+ color: white;
+ box-shadow: 0 0.2rem #dfd9d9;
+ transform: translateY(0.2rem);
+}
+
+button:hover:not(:disabled) {
+ background: #87CEFA;
+ color: white;
+ text-shadow: 0 0.1rem #bcb4b4;
+}
+
+button:disabled {
+ cursor: auto;
+ color: grey;
+}
+
+.input-container {
+  position: relative;
+  margin: 20px auto;
+  width: 200px;
+}
+
+.input-container input[type="number"] {
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 5px 0;
+  background-color: transparent;
+  outline: none;
+}
+
+.input-container .label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ccc;
+  transition: all 0.3s ease;
+margin:0px;
+  pointer-events: none;
+}
+
+.input-container input[type="number"]:focus ~ .label,
+.input-container input[type="number"]:valid ~ .label {
+  top: -20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.input-container .underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #333;
+  transform: scaleX(0);
+  transition: all 0.3s ease;
+}
+
+.input-container input[type="number"]:focus ~ .underline,
+.input-container input[type"number"]:valid ~ .underline {
+  transform: scaleX(1);
+}

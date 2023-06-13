@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>TestCraft</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <main>
+            <h1>Faça seu teste de Front-End!</h1>
+            <p>Para fazer seu teste siga as etapas conforme foi explicado:</p><br><br>
+            <nav class="teste">
+            <h3>Planejamento</h3>
+            <section class="planejamento">
+                <p><b>A-</b> O que será testado?</p>
+                <input type="text" ></input><br><br>
+                <p><b>B-</b> Quais dados serão monitorados?</p>
+                <input type="text" ></input><br><br>
+                <p><b>C-</b> Objetivos</p>
+                <input type="text" ></input><br><br>
+                <p><b>D-</b> Cronograma</p>
+                <input type="text" ></input><br><br>
+                <p><b>C-</b> Recursos utilizados</p>
+                <input type="text" ></input><br><br>
+            </section>
+            <h3>Elaboração do caso de Teste</h3>
+                <section class="casoteste">
+                  <p> Adicione um caso de teste:</p>
+                  <input type="text" id="addteste" name="addteste"></input><br><br>
+                  <button onclick="adiciona()">Adicionar teste</button><br><br>
+                  <div>
+                  <ul>
+           		
+                 </ul>
+                 </div>
+                </section>
+                <h3>Execução</h3>
+                <section>
+                    <label id="labeltest" class="labelteste">Caso de Teste 1: </label><br><br>
+                    <p>Resultado do teste</p>
+                    <input type="text" id="enviarteste" name="eviarteste"></input><br><br>
+                    <nav>
+                    <button onclick="enviar()">Enviar Resultado</button><br><br>
+                    <button onclick="proxteste()">Próximo teste</button>
+                    </nav>
+                </section>
+                <h3>Avaliação</h3>
+                <section class="avaliacao">
+                    <p>Teste de casos com resultado positivo:</p>
+                    <input type="number" id="positivoteste" placeholder="Digite um por vez"></input><br><br>
+                    <button onclick="positivo()">Enviar</button><br><br>
+                    <p>Teste de casos com resultado negativo:</p>
+                    <input type="number" id="negativoteste" placeholder="Digite um por vez"></input><br><br>
+                    <button onclick="negativo()">Enviar</button><br><br>
+                    
+                </section>
+            </nav>
+
+                <button onclick="ficha()" >Mostrar testes </button><br><br>
+                
+                <nav class="ficha">
+                <label id="ficha" class="positivo">Caso de teste positivo:</label>
+                <label id="fichan" class="negativo">Caso de teste negativo:</label>
+                </nav>
+                <br><br>
+        </main>
+    </body>
+</html>
